@@ -1,0 +1,51 @@
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+  
+    /* You can keep your existing background gradient or use a solid color */
+    background: linear-gradient(180deg, #fde1ff, #e1ffea22 60%);
+  }
+  
+  .hero-content {
+    max-width: 500px;
+  }
+  
+  .hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 1.5rem;
+  }
+  
+  .hero-latest-btn {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    color: #fff;
+    background-color: #333;
+    padding: 10px 20px;
+    border-radius: 5px;
+  
+    /* You can add more styles for hover effects */
+  }
+  
+  .hero-latest-btn img {
+    margin-left: 10px;
+  }
+  
+  .hero-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    flex:1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  

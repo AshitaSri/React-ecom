@@ -1,0 +1,70 @@
+/* Styles for the banner */
+.shopcategory-banner {
+    display: block;
+    margin: 30px auto;
+    width: 82%;
+  }
+  
+  /* Styles for the index and sort section */
+  .shopcategory-indexSort {
+    display: flex;
+    margin: 0px 170px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Styles for the sort button */
+  .shopcategory-sort {
+    position: relative; /* Ensure relative positioning for the absolute dropdown */
+    padding: 10px 20px;
+    border-radius: 40px;
+    border: 1px solid #888;
+    cursor: pointer;
+    background-color: pink; /* Add this if you want to indicate it's clickable */
+  }
+  
+  /* Styles for the "Sort by" button */
+  .sort-by-button {
+    display: inline-block;
+  }
+  
+  /* Styles for the span inside the p tag */
+  .shopcategory-indexSort p span {
+    font-weight: 600;
+    /* Add styles for the span inside the p tag */
+  }
+  
+  /* Styles for the dropdown menu */
+  .sort-dropdown {
+    position: absolute;
+    top: 100%; /* Position below the "Sort by" button */
+    left: 0;
+    z-index: 1; /* Ensure the dropdown is on top of other elements */
+    background-color: white;
+    border: 1px solid #888;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 8px 0;
+    width: 150px;
+  }
+  
+  /* Styles for individual items in the dropdown */
+  .sort-dropdown div {
+    padding: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Add a smooth transition effect */
+  
+    /* Hover effect */
+    &:hover {
+      background-color: #f0f0f0;
+    }
+  }
+  
+  /* Styles for the product grid */
+  .shopcategory-products {
+    margin: 20px 170px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    row-gap: 80px;
+  }
+  
