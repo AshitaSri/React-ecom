@@ -54,4 +54,5 @@ These instructions will help you set up and run the project on your local machin
 ## Authors
 
 - Ashita Srivastava
+- https://www.linkedin.com/in/ashita-srivastava-82b163226/
 
